@@ -1,0 +1,129 @@
+*{    
+    background: #222222;;
+    font-family: Roboto,Helvetica, sans-serif;
+}
+p{
+    color: whitesmoke;
+}
+.wrapper{
+    display:grid;
+    grid-template-rows: 25% 25% auto;
+    
+}
+.d-block > img{
+    /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(12, 19, 93, 0.73)); */
+    /* url('./image/yosemite.jpg'); */
+    background-size: cover;
+    background:linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%);
+}
+
+.carousel-inner > .carousel-item > img{
+    height: 90vh; 
+    /* background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); */
+    /* background-image: linear-gradient( rgba(106, 99, 139, 0.52), rgba(12, 44, 93, 0.73)); */
+}
+.wrapper > nav >ul {
+    display: inline-grid;
+    color: whitesmoke;
+    padding: 1%;
+    
+}
+
+.material-icons {
+    color: whitesmoke;
+    /* padding: 1%; */
+    /* padding-top:1px;  */
+    display: none;
+}
+.flex{
+    margin:10px;
+    padding-top:10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.div1{
+    padding: 5%;
+    background-color: whitesmoke;
+}
+
+.div2{
+    padding: 5%;
+    background-color: darkslategrey;
+}
+
+.div3{
+    padding: 5%;
+    background-color:grey;
+}
+
+.div4{
+    padding: 5%;
+    background-color: whitesmoke;
+}
+
+.div5{
+    padding: 5%;
+    background-color: darkslategrey;
+}
+
+.div6{
+    padding: 5%;
+    background-color: grey;
+}
+.line{
+    display: inline-grid;
+    background-color: rgb(150, 236, 232);
+}
+.grid{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    width:auto;
+}
+
+#d1{
+    padding: 5%;
+    background-color: rgba(150, 126, 170, 0.603);
+}
+
+#d2{
+    padding: 5%;
+    background-color:blanchedalmond;     
+}
+
+#d3{
+    padding: 5%;
+    background-color:blanchedalmond;
+}
+
+#d4{
+    padding: 5%;
+    background-color: grey;
+}
+
+#d5{
+    padding: 5%;
+    background-color: grey;
+}
+
+#d6{
+    padding: 5%;
+    background-color: darkslategrey;
+}
+
+.row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border:red;
+}
+.row > .col-sm-6{
+    color: whitesmoke;
+}
+.footer > .social-media-icons   {
+    
+    color: whitesmoke;
+}
