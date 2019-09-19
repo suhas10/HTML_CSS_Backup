@@ -1,5 +1,5 @@
 *{    
-    background: #222222;;
+    background:black; 
     font-family: Roboto,Helvetica, sans-serif;
 }
 p{
@@ -11,17 +11,12 @@ p{
     
 }
 .d-block > img{
-    /* background-image: linear-gradient( rgba(245, 246, 252, 0.52), rgba(12, 19, 93, 0.73)); */
-    /* url('./image/yosemite.jpg'); */
     background-size: cover;
-    background:linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%);
 }
 
-.carousel-inner > .carousel-item > img{
+ .carousel-inner > .carousel-item > img{
     height: 90vh; 
-    /* background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); */
-    /* background-image: linear-gradient( rgba(106, 99, 139, 0.52), rgba(12, 44, 93, 0.73)); */
-}
+} 
 .wrapper > nav >ul {
     display: inline-grid;
     color: whitesmoke;
