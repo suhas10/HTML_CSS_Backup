@@ -14,9 +14,9 @@ p{
     background-size: cover;
 }
 
- .carousel-inner > .carousel-item > img{
+.carousel-inner > .carousel-item > img{
     height: 90vh; 
-} 
+}
 .wrapper > nav >ul {
     display: inline-grid;
     color: whitesmoke;
@@ -31,7 +31,6 @@ p{
     display: none;
 }
 .flex{
-    margin:10px;
     padding-top:10px;
     display: flex;
     justify-content: space-evenly;
@@ -40,6 +39,7 @@ p{
 .div1{
     padding: 5%;
     background-color: whitesmoke;
+    box-shadow: 0 0 5px 5px #888;
 }
 
 .div2{
@@ -50,6 +50,7 @@ p{
 .div3{
     padding: 5%;
     background-color:grey;
+    box-shadow: 0 0 5px 5px #888;
 }
 
 .div4{
@@ -71,7 +72,7 @@ p{
     background-color: rgb(150, 236, 232);
 }
 .grid{
-    margin: 10px;
+   
     padding-top: 10px;
     padding-bottom: 10px;
     display:grid;
@@ -82,6 +83,7 @@ p{
 
 #d1{
     padding: 5%;
+    box-shadow: 0 0 5px 5px #888;
     background-color: rgba(150, 126, 170, 0.603);
 }
 
@@ -97,6 +99,7 @@ p{
 
 #d4{
     padding: 5%;
+    box-shadow: 0 0 5px 5px #888;
     background-color: grey;
 }
 
@@ -119,6 +122,5 @@ p{
     color: whitesmoke;
 }
 .footer > .social-media-icons   {
-    
     color: whitesmoke;
 }
